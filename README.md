@@ -1,2 +1,2 @@
 # convSmashBros
-A convolutional neural network for classifying characters from frame data in super smash brothers melee.
+A convolutional neural network for classifying characters from frame data in Super Smash Brothers Melee. The scrapeData notebook will scrape the animated gifs from meleeframedata.com and organize them into a folder. The imageProcess notebook performs some data augmentation and saves tensorized versions of the images. Finally, the trainCNN notebook sets up a 3D convolutional neural network to perform the prediction. As trained in the notebook the CNN achieves and accuracy of 71% in identifying the character among the roster of 26 characters.
